@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backlog triage with jev</title>
+<style>
+  :root { --bg:#fbfbf9; --fg:#1a1a1a; --mute:#6b6b6b; --line:#e2e2dc; --ok:#1f7a3a; --warn:#b8600e; --bad:#a32020; --acc:#2848a0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151614; --fg:#ececea; --mute:#9a9a95; --line:#2c2d2a; --ok:#5ec27a; --warn:#e8a04a; --bad:#e46b6b; --acc:#8aa3ee; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; } .sub { color:var(--mute); margin:0 0 24px; }
+  textarea { width:100%; min-height: 220px; font: 13px/1.45 ui-monospace, monospace; padding:12px; border:1px solid var(--line); border-radius:8px; background:transparent; color:var(--fg); box-sizing:border-box; }
+  .row { display:flex; gap:12px; align-items:center; margin: 12px 0 24px; flex-wrap: wrap; }
+  button { background:var(--acc); color:#fff; border:0; border-radius:8px; padding:10px 18px; font-size:15px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:wait; }
+  .status { color:var(--mute); }
+  table { width:100%; border-collapse: collapse; font-size:14px; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align: top; }
+  th { color:var(--mute); font-weight:600; font-size:12px; text-transform: uppercase; letter-spacing:.04em; }
+  .bar { height:8px; background:var(--line); border-radius:4px; overflow:hidden; min-width:90px; }
+  .bar i { display:block; height:100%; background:var(--acc); }
+  .tag { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; font-weight:600; }
+  .auto { background:color-mix(in srgb, var(--ok) 18%, transparent); color:var(--ok); }
+  .human { background:color-mix(in srgb, var(--warn) 18%, transparent); color:var(--warn); }
+  .gap { background:color-mix(in srgb, var(--bad) 18%, transparent); color:var(--bad); }
+  .dist { color:var(--mute); font-size:12px; }
+  .summary { margin: 20px 0 0; padding: 14px 16px; border:1px solid var(--line); border-radius:8px; }
+  .err { color: var(--bad); white-space: pre-wrap; }
+  footer { color:var(--mute); font-size:13px; margin-top:32px; }
+  code { font: 12px ui-monospace, monospace; }
+</style>
+</head>
+<body><main>
+<h1>Backlog triage with jev</h1>
+<p class="sub">Each row is sent as <code>state</code> to <code>typesafe-ai/jev</code> on Vercel AI Gateway with three closed questions. Nothing is generated; every answer is a probability over options defined up front. Rows below 0.70 confidence go to a person.</p>
+
+<label for="items"><strong>Items</strong> <span class="status">(JSON array of <code>{id, text, in_board}</code>, up to 50, synthetic sample loaded)</span></label>
+<textarea id="items"></textarea>
+<div class="row">
+  <button id="run">Triage with jev</button>
+  <button id="reset" style="background:transparent;color:var(--fg);border:1px solid var(--line)">Reload sample</button>
+  <span id="status" class="status"></span>
+</div>
+<div id="out"></div>
+<footer>Frontend on GitHub Pages; the jev call runs in a Vercel function that holds the key. Source: <a href="https://github.com/ademczuk/jev-backlog-triage">ademczuk/jev-backlog-triage</a>.</footer>
+</main>
+<script>
+const API = 'https://jev-backlog-triage-testing-4fae.vercel.app/api/triage';
+const SAMPLE = [
+  { id: 'D-014', text: 'Pilot duration for the walking skeleton is unestimated because agent session-hours per ticket has never been measured. Blocks the go/no-go on the first milestone.', in_board: false },
+  { id: 'D-021', text: 'Sponsor to confirm whether the external frontend resources being dropped are the same population the cost baseline measures against.', in_board: true },
+  { id: 'D-037', text: 'Rename the staging bucket to match the new environment prefix. Cosmetic, no downstream dependency.', in_board: false }
+];
+const $ = (s) => document.querySelector(s);
+const SIZE = ['under an hour', 'half a day', 'two days', 'a week', 'more than a week'];
+function load() { $('#items').value = JSON.stringify(SAMPLE, null, 2); $('#out').innerHTML = ''; $('#status').textContent = ''; }
+function pct(x) { return Math.round(x * 100) + '%'; }
+function bar(x) { return `<div class="bar"><i style="width:${Math.round(x*100)}%"></i></div>`; }
+function dist(p) { return Object.entries(p).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${k} ${pct(v)}`).join(' &middot; '); }
+function render(rows) {
+  const auto = rows.filter(r => !r.needs_human).length;
+  const gap = rows.filter(r => r.untracked_but_blocking);
+  let h = `<table><thead><tr><th>id</th><th>who acts next</th><th>blocks milestone</th><th>size of one pass</th><th>weakest confidence</th><th>verdict</th></tr></thead><tbody>`;
+  for (const r of rows) {
+    const o = r.owner, b = r.blocks_milestone, s = r.size_class;
+    h += `<tr><td><strong>${r.id}</strong></td>
+      <td><strong>${o.choice}</strong> ${pct(o.probabilities[o.choice])}<div class="dist">${dist(o.probabilities)}</div></td>
+      <td>${pct(b.probability)}${bar(b.probability)}</td>
+      <td><strong>${SIZE[Math.round(s.score)]}</strong> <span class="dist">(${s.score.toFixed(2)})</span><div class="dist">${dist(s.probabilities)}</div></td>
+      <td>${r.weakest_confidence.toFixed(2)}${bar(r.weakest_confidence)}</td>
+      <td>${r.needs_human ? '<span class="tag human">to a human</span>' : '<span class="tag auto">cleared</span>'} ${r.untracked_but_blocking ? '<span class="tag gap">blocking, not on board</span>' : ''}</td></tr>`;
+  }
+  h += `</tbody></table><div class="summary"><strong>${rows.length} items</strong>, ${auto} cleared automatically, ${rows.length - auto} to a human.` +
+       (gap.length ? ` <span class="gap tag">${gap.length} milestone-blocking and not on the board: ${gap.map(r=>r.id).join(', ')}</span>` : '') + `</div>`;
+  $('#out').innerHTML = h;
+}
+$('#run').onclick = async () => {
+  let items; try { items = JSON.parse($('#items').value); } catch (e) { $('#out').innerHTML = `<p class="err">Not valid JSON: ${e.message}</p>`; return; }
+  $('#run').disabled = true; $('#status').textContent = 'asking jev...'; const t0 = performance.now();
+  try {
+    const res = await fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(items) });
+    const data = await res.json();
+    if (!res.ok || data.error) throw new Error(data.error || `HTTP ${res.status}`);
+    render(data.rows); $('#status').textContent = `done in ${((performance.now()-t0)/1000).toFixed(1)}s`;
+  } catch (e) { $('#out').innerHTML = `<p class="err">${e.message}</p>`; $('#status').textContent = ''; }
+  finally { $('#run').disabled = false; }
+};
+$('#reset').onclick = load; load();
+</script>
+</body></html>
