@@ -72,12 +72,21 @@ upward, never a silent autonomous decision on a low-confidence call.
 ## Running it
 
 ```
-vercel link
-vercel env pull
 npm install
+# AI Gateway dashboard, API Keys, create one, then:
+echo AI_GATEWAY_API_KEY=vck_... > .env.local
 npm run triage                      # synthetic sample, safe to run anywhere
 npm run triage -- path/to/real.json # real rows, see the boundary note
 ```
+
+Use an API key for local runs, not the OIDC token. Measured 2026-09-22 on a Pro
+team with a card on file: `vercel env pull` delivers `VERCEL_OIDC_TOKEN`, which
+authenticates (`GET /v1/models` returns 200) and is then refused on every
+model with `403 customer_verification_required`. An API key created in the
+same team's dashboard succeeded on the identical request in the same minute.
+Vercel's FAQ presents the two as equivalent; on this team they were not. If
+the OIDC path fails for you, do not chase plan, scope, or card state, which
+were all already correct here. Make a key.
 
 ## Boundary note, read before pointing this at anything real
 
