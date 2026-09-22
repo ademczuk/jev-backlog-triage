@@ -71,13 +71,21 @@ async function triage(item: Item) {
     model: 'typesafe-ai/jev',
     state,
     questions,
-    // Client material must not be retained by the gateway. This is a default
-    // here rather than an option, because the cost of forgetting it is not
-    // symmetric with the cost of setting it.
-    providerOptions: { gateway: { zeroDataRetention: true } },
+    // Client material must not be retained by the gateway. Per-request ZDR is
+    // a Pro and Enterprise feature on Vercel; on a Hobby team the gateway
+    // refuses it. So it is on unless explicitly disabled, and disabling it
+    // is a loud env var rather than a quiet default, because that is the
+    // direction the mistake must be hard in.
+    providerOptions: { gateway: { zeroDataRetention: process.env.JEV_ALLOW_RETENTION !== '1' } },
   });
 
-  const conf = (result.providerMetadata?.typesafe?.confidence ?? {}) as Record<string, number>;
+  const conf = { ...((result.providerMetadata?.typesafe?.confidence ?? {}) as Record<string, number>) };
+  // The gateway reports confidence for choice and score questions only. A
+  // boolean has no entry because its probability already is the confidence:
+  // 0.5 is a coin flip, 0 or 1 is certainty. Map it onto the same 0..1 scale
+  // rather than reading the missing key as zero, which escalated every row.
+  const b = result.answers.blocks_milestone?.probability;
+  if (typeof b === 'number') conf.blocks_milestone = Math.abs(b - 0.5) * 2;
   const weakest = Math.min(...Object.keys(questions).map((k) => conf[k] ?? 0));
 
   return {
