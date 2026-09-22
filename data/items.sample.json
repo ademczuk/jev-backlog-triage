@@ -1,0 +1,17 @@
+[
+  {
+    "id": "D-014",
+    "text": "Pilot duration for the walking skeleton is unestimated because agent session-hours per ticket has never been measured. Blocks the go/no-go on the first milestone.",
+    "in_board": false
+  },
+  {
+    "id": "D-021",
+    "text": "Sponsor to confirm whether the external frontend resources being dropped are the same population the cost baseline measures against.",
+    "in_board": true
+  },
+  {
+    "id": "D-037",
+    "text": "Rename the staging bucket to match the new environment prefix. Cosmetic, no downstream dependency.",
+    "in_board": false
+  }
+]

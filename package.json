@@ -1,0 +1,13 @@
+{
+  "name": "jev-backlog-triage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "triage": "node --experimental-strip-types src/triage.ts",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "ai": "^7.0.0"
+  }
+}
