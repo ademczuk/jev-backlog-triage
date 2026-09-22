@@ -3,7 +3,7 @@
  * cannot hold a secret, so it posts rows here and this function makes the
  * jev call with AI_GATEWAY_API_KEY from the Vercel environment.
  */
-import { triage, type Item } from '../src/lib.ts';
+import { triage, type Item } from '../src/lib.js';
 
 const ALLOW = /^https:\/\/ademczuk\.github\.io$|^http:\/\/localhost(:\d+)?$/;
 
