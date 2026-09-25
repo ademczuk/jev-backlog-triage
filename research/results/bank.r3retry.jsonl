@@ -1,0 +1,6 @@
+{"id":"bank-19","label":false,"answer":{"type":"boolean","probability":0.28},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":441,"outputTokens":20,"totalTokens":461},"ms":666}
+{"id":"bank-43","label":false,"answer":{"type":"boolean","probability":0.27},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":441,"outputTokens":20,"totalTokens":461},"ms":424}
+{"id":"bank-66","label":false,"answer":{"type":"boolean","probability":0.25},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":445,"outputTokens":20,"totalTokens":465},"ms":322}
+{"id":"bank-90","label":false,"answer":{"type":"boolean","probability":0.25},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":441,"outputTokens":20,"totalTokens":461},"ms":430}
+{"id":"bank-113","label":false,"answer":{"type":"boolean","probability":0.18},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":441,"outputTokens":20,"totalTokens":461},"ms":334}
+{"id":"bank-137","label":true,"answer":{"type":"boolean","probability":0.49},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":439,"outputTokens":20,"totalTokens":459},"ms":333}

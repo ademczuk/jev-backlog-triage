@@ -1,0 +1,40 @@
+{"id":"sst2-1","label":true,"answer":{"type":"boolean","probability":0.97},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":329,"outputTokens":20,"totalTokens":349},"ms":478}
+{"id":"sst2-3","label":true,"answer":{"type":"boolean","probability":0.86},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":345,"outputTokens":20,"totalTokens":365},"ms":503}
+{"id":"sst2-0","label":false,"answer":{"type":"boolean","probability":0.21},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":343,"outputTokens":20,"totalTokens":363},"ms":525}
+{"id":"sst2-6","label":true,"answer":{"type":"boolean","probability":0.95},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":340,"outputTokens":20,"totalTokens":360},"ms":509}
+{"id":"sst2-2","label":true,"error":"Delay was aborted","ms":30006}
+{"id":"sst2-4","label":true,"error":"Delay was aborted","ms":30009}
+{"id":"sst2-5","label":true,"error":"Delay was aborted","ms":30010}
+{"id":"sst2-7","label":true,"error":"Delay was aborted","ms":30011}
+{"id":"sst2-12","label":true,"answer":{"type":"boolean","probability":0.63},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":330,"outputTokens":20,"totalTokens":350},"ms":439}
+{"id":"sst2-14","label":true,"answer":{"type":"boolean","probability":0.91},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":352,"outputTokens":20,"totalTokens":372},"ms":464}
+{"id":"sst2-8","label":false,"error":"Delay was aborted","ms":29999}
+{"id":"sst2-15","label":true,"answer":{"type":"boolean","probability":0.93},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":343,"outputTokens":20,"totalTokens":363},"ms":467}
+{"id":"sst2-9","label":true,"error":"Delay was aborted","ms":30009}
+{"id":"sst2-10","label":true,"error":"Delay was aborted","ms":30009}
+{"id":"sst2-11","label":false,"error":"Delay was aborted","ms":30006}
+{"id":"sst2-13","label":true,"answer":{"type":"boolean","probability":0.98},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":357,"outputTokens":20,"totalTokens":377},"ms":511}
+{"id":"sst2-16","label":true,"answer":{"type":"boolean","probability":0.96},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":326,"outputTokens":20,"totalTokens":346},"ms":354}
+{"id":"sst2-23","label":true,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3155}
+{"id":"sst2-19","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3257}
+{"id":"sst2-21","label":true,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3251}
+{"id":"sst2-20","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3259}
+{"id":"sst2-22","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3271}
+{"id":"sst2-18","label":false,"answer":{"type":"boolean","probability":0.12},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":328,"outputTokens":20,"totalTokens":348},"ms":3445}
+{"id":"sst2-24","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":3136}
+{"id":"sst2-17","label":true,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":4173}
+{"id":"sst2-27","label":true,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2172}
+{"id":"sst2-28","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2175}
+{"id":"sst2-29","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2169}
+{"id":"sst2-25","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2309}
+{"id":"sst2-30","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2163}
+{"id":"sst2-31","label":false,"error":"Failed after 2 attempts. Last error: GatewayRateLimitError: The upstream provider is currently experiencing high demand. Please retry shortly.","ms":2178}
+{"id":"sst2-26","label":true,"answer":{"type":"boolean","probability":0.98},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":328,"outputTokens":20,"totalTokens":348},"ms":2400}
+{"id":"sst2-32","label":true,"error":"Delay was aborted","ms":30005}
+{"id":"sst2-33","label":false,"error":"Delay was aborted","ms":30008}
+{"id":"sst2-34","label":true,"error":"Delay was aborted","ms":29999}
+{"id":"sst2-35","label":true,"error":"Delay was aborted","ms":30003}
+{"id":"sst2-36","label":false,"error":"Delay was aborted","ms":30003}
+{"id":"sst2-37","label":false,"error":"Delay was aborted","ms":30006}
+{"id":"sst2-38","label":true,"error":"Delay was aborted","ms":30007}
+{"id":"sst2-39","label":false,"error":"Delay was aborted","ms":30013}

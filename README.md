@@ -16,6 +16,23 @@ learning for calibrated decisions rather than RLHF, and the pitch is that the
 confidence tracks accuracy, so code can act above a threshold and route to a
 human below it.
 
+## What we measured afterwards
+
+The paragraph above is the pitch. We then tested it on public labelled data, each test against a
+protocol frozen and hashed before the first call:
+
+- **Calibration on tabular yes/no questions** ([research/CARD.md](research/CARD.md)): failed all five
+  lines. Less accurate than always guessing the majority class, and a logistic regression trained in
+  seconds beat it on both sets.
+- **Inside an agent harness** ([research/CARD-HARNESS.md](research/CARD-HARNESS.md)): model routing,
+  tool selection and a prompt-injection gate all failed their lines at a fixed threshold. It ranks
+  well; its probabilities are not where the threshold should be. Tool selection over 199 tools is the
+  one clear win: 0.743 top-1, and 0.94 right when its confidence is 0.95 or higher.
+- **Open alternatives on a CPU** ([research/CARD-OPEN.md](research/CARD-OPEN.md)): Laya and Kev-0.8B
+  run locally but sit at chance or the majority rate on the public tables.
+- The survey of the 15 videos, with where reviewers contradict each other, is
+  [research/SYNTHESIS.md](research/SYNTHESIS.md).
+
 ## Why this is buildable today with only a Vercel account
 
 jev landed on Vercel AI Gateway as `typesafe-ai/jev` on 16 September 2026. AI

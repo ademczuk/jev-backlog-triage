@@ -1,0 +1,2 @@
+{"id":"telco-21-h","label":false,"answer":{"type":"boolean","probability":0.25},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":478,"outputTokens":20,"totalTokens":498},"ms":593}
+{"id":"telco-45-h","label":true,"answer":{"type":"boolean","probability":0.59},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":465,"outputTokens":20,"totalTokens":485},"ms":847}

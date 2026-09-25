@@ -1,0 +1,5 @@
+{"id": "sst2-0", "label": false, "answer": {"type": "boolean", "probability": 0.18242552380635632}, "confidence": 0.8175744761936437, "ms": 727}
+{"id": "sst2-1", "label": true, "answer": {"type": "boolean", "probability": 0.8933094060543487}, "confidence": 0.8933094060543487, "ms": 562}
+{"id": "sst2-2", "label": true, "answer": {"type": "boolean", "probability": 0.32082130082460697}, "confidence": 0.679178699175393, "ms": 700}
+{"id": "sst2-3", "label": true, "answer": {"type": "boolean", "probability": 0.9706877692486436}, "confidence": 0.9706877692486436, "ms": 966}
+{"id": "sst2-4", "label": true, "answer": {"type": "boolean", "probability": 0.8807970779778823}, "confidence": 0.8807970779778823, "ms": 517}

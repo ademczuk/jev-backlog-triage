@@ -1,0 +1,400 @@
+{"id": "bank-0", "text": "My cash in the ATM is still pending", "label": "pending_cash_withdrawal"}
+{"id": "bank-1", "text": "IM still waiting for my account to update from a cash deposit?", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-2", "text": "I live in the US, how long will it take for delivery?", "label": "card_delivery_estimate"}
+{"id": "bank-3", "text": "I am trying to exchange crypto and it's not working. Tell me how to fix this.", "label": "beneficiary_not_allowed"}
+{"id": "bank-4", "text": "Is it possible to change to another currency?", "label": "exchange_via_app"}
+{"id": "bank-5", "text": "Where are the options to top up with a cheque on my account?", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-6", "text": "I've just moved address from a place in Durham to a place in Walton-On-The-Naze.  I have a new landlord at my new house and they haven't got my payment but I know I sent it on time, can you check they got it please?", "label": "transfer_not_received_by_recipient"}
+{"id": "bank-7", "text": "Will I be able to get a disposable virtual card as well?", "label": "get_disposable_virtual_card"}
+{"id": "bank-8", "text": "How long does it take for funds to come through the US to my account?", "label": "transfer_timing"}
+{"id": "bank-9", "text": "Can I put my old card back into the system? I just found it/", "label": "card_linking"}
+{"id": "bank-10", "text": "Where do I change my PIN?", "label": "change_pin"}
+{"id": "bank-11", "text": "Oh no!  I lost my card!  Help!", "label": "lost_or_stolen_card"}
+{"id": "bank-12", "text": "I sent some money and the receiver can't access it.", "label": "transfer_not_received_by_recipient"}
+{"id": "bank-13", "text": "My contanctless has stopped working", "label": "contactless_not_working"}
+{"id": "bank-14", "text": "can you tell me why my transfer failed?", "label": "failed_transfer"}
+{"id": "bank-15", "text": "I do not remember purchasing anything for 1\u00a3, and it is on my statement. Can you please tell me what that is about?", "label": "extra_charge_on_statement"}
+{"id": "bank-16", "text": "How can I top up by card?", "label": "topping_up_by_card"}
+{"id": "bank-17", "text": "How much does it cost in fees to use your card?", "label": "order_physical_card"}
+{"id": "bank-18", "text": "The application reverted my top-up.", "label": "top_up_reverted"}
+{"id": "bank-19", "text": "Why do you need all this information about my Source of Funds?", "label": "verify_source_of_funds"}
+{"id": "bank-20", "text": "Can you tell me the limits for top ups?", "label": "top_up_limits"}
+{"id": "bank-21", "text": "Why was my transfer charged fees?", "label": "transfer_fee_charged"}
+{"id": "bank-22", "text": "how do i get a virtual card for one time use", "label": "get_disposable_virtual_card"}
+{"id": "bank-23", "text": "Do I get a choice between Visa and Mastercard?", "label": "visa_or_mastercard"}
+{"id": "bank-24", "text": "Cancel my last transfer", "label": "cancel_transfer"}
+{"id": "bank-25", "text": "How long is my Europe transfer wait?", "label": "transfer_timing"}
+{"id": "bank-26", "text": "Can I use my card anywere?", "label": "card_acceptance"}
+{"id": "bank-27", "text": "I do not have my pin", "label": "get_physical_card"}
+{"id": "bank-28", "text": "I still don't have my pin.", "label": "get_physical_card"}
+{"id": "bank-29", "text": "Hello- It is urgent I get a refund on this product. The merchant has not been helpful, what can I do now to get this resolved ASAP?", "label": "request_refund"}
+{"id": "bank-30", "text": "Tell me how I can exchange between different currency.", "label": "exchange_via_app"}
+{"id": "bank-31", "text": "Are contactless payments enabled on my new card?", "label": "contactless_not_working"}
+{"id": "bank-32", "text": "Problems with top up", "label": "top_up_failed"}
+{"id": "bank-33", "text": "How would you use a disposable card?", "label": "get_disposable_virtual_card"}
+{"id": "bank-34", "text": "Why are there so many fees on my statement?", "label": "extra_charge_on_statement"}
+{"id": "bank-35", "text": "Can this app help me exchange currencies?", "label": "exchange_via_app"}
+{"id": "bank-36", "text": "I have a strange direct debit in my statement", "label": "direct_debit_payment_not_recognised"}
+{"id": "bank-37", "text": "I need help with activating my card", "label": "activate_my_card"}
+{"id": "bank-38", "text": "Where can I find instructions to change my PIN?", "label": "change_pin"}
+{"id": "bank-39", "text": "I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?", "label": "cash_withdrawal_charge"}
+{"id": "bank-40", "text": "Help!  I can't find my card.", "label": "lost_or_stolen_card"}
+{"id": "bank-41", "text": "Top up on my Google Pay isn't working.", "label": "apple_pay_or_google_pay"}
+{"id": "bank-42", "text": "Can I exchange between GBP and USD on the app?", "label": "exchange_via_app"}
+{"id": "bank-43", "text": "Why have I been charged twice for the same transaction?", "label": "transaction_charged_twice"}
+{"id": "bank-44", "text": "How can I use American Express to add money to my account?", "label": "supported_cards_and_currencies"}
+{"id": "bank-45", "text": "Is my salary eligible for this?", "label": "receiving_money"}
+{"id": "bank-46", "text": "There is a payment that is not mine in the app.  Please advise/", "label": "card_payment_not_recognised"}
+{"id": "bank-47", "text": "What if I need my salary in a different currency?", "label": "receiving_money"}
+{"id": "bank-48", "text": "I want one of those virtual cards!", "label": "getting_virtual_card"}
+{"id": "bank-49", "text": "I got my new card but I am not sure if it need s activated and how?", "label": "activate_my_card"}
+{"id": "bank-50", "text": "Why am I being charged a fee for transferring money?", "label": "transfer_fee_charged"}
+{"id": "bank-51", "text": "I didn't make this direct debit transaction", "label": "direct_debit_payment_not_recognised"}
+{"id": "bank-52", "text": "How to decide if I get a Visa or Mastercard?", "label": "visa_or_mastercard"}
+{"id": "bank-53", "text": "Is their a fee for top ups?", "label": "top_up_by_card_charge"}
+{"id": "bank-54", "text": "what is the virtual card", "label": "getting_virtual_card"}
+{"id": "bank-55", "text": "Can you please identify the problem with my bank card?", "label": "card_not_working"}
+{"id": "bank-56", "text": "I want my account deleted!", "label": "terminate_account"}
+{"id": "bank-57", "text": "I ordered my card 2 weeks ago and it still isn't here? What do I do?", "label": "card_arrival"}
+{"id": "bank-58", "text": "I made a deposit of cash and check that has not been added to my balance.", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-59", "text": "The app made a mistake and said I made a cash withdrawal.", "label": "cash_withdrawal_not_recognised"}
+{"id": "bank-60", "text": "I have to verify the source of my funds", "label": "verify_source_of_funds"}
+{"id": "bank-61", "text": "I purchased something in a foreign currency but the rate applied is wrong", "label": "card_payment_wrong_exchange_rate"}
+{"id": "bank-62", "text": "Where is my card accepted?", "label": "card_acceptance"}
+{"id": "bank-63", "text": "I would like to know how I can verify my Identity.", "label": "verify_my_identity"}
+{"id": "bank-64", "text": "This company sucks! Can you delete my account?", "label": "terminate_account"}
+{"id": "bank-65", "text": "How can I check the exchange rate applied to my transaction?", "label": "card_payment_wrong_exchange_rate"}
+{"id": "bank-66", "text": "I need help because I drunken blocked my card?", "label": "pin_blocked"}
+{"id": "bank-67", "text": "What currencies is an exchange rate calculated in?", "label": "exchange_rate"}
+{"id": "bank-68", "text": "can I choose a date for delivery?", "label": "card_delivery_estimate"}
+{"id": "bank-69", "text": "My passcode doesn't seem to be working", "label": "passcode_forgotten"}
+{"id": "bank-70", "text": "In receiving cash, the wrong exchange rate was used for my transaction.", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-71", "text": "How long can an EU transfer take?", "label": "pending_transfer"}
+{"id": "bank-72", "text": "Can you delete my account please?", "label": "terminate_account"}
+{"id": "bank-73", "text": "Can I order extra cards?", "label": "getting_spare_card"}
+{"id": "bank-74", "text": "Is there a limit to top-up amounts?", "label": "top_up_limits"}
+{"id": "bank-75", "text": "How do I set-up my PIN for the new card?", "label": "get_physical_card"}
+{"id": "bank-76", "text": "Can you explain the disposable cards to me?", "label": "get_disposable_virtual_card"}
+{"id": "bank-77", "text": "I need a fast transfer from China?  How fast will it be?", "label": "transfer_timing"}
+{"id": "bank-78", "text": "The transfer keeps failing , I tried to transfer some money to friends this morning but it keeps getting rejected for some reason, Would you please check the issue ?", "label": "failed_transfer"}
+{"id": "bank-79", "text": "Is my currency okay to add money with?", "label": "supported_cards_and_currencies"}
+{"id": "bank-80", "text": "Can I get a card outside the UK?", "label": "country_support"}
+{"id": "bank-81", "text": "I have been charged with a fee for paying with my card.", "label": "card_payment_fee_charged"}
+{"id": "bank-82", "text": "Can I use my card for payment all over the world?", "label": "card_acceptance"}
+{"id": "bank-83", "text": "I no longer have my passcode.", "label": "passcode_forgotten"}
+{"id": "bank-84", "text": "What kind of ATM's can I use?", "label": "atm_support"}
+{"id": "bank-85", "text": "Can I top up using my car?", "label": "topping_up_by_card"}
+{"id": "bank-86", "text": "Is my card broken?", "label": "card_not_working"}
+{"id": "bank-87", "text": "I have paid money into my account but it doesn't show.", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-88", "text": "I did what you told me earlier and contacted the seller for a refund directly, but nothing is happening! It's been a week and I still haven't got anything. Please just give me back my money", "label": "Refund_not_showing_up"}
+{"id": "bank-89", "text": "Someone I don't know has used my card without permission.", "label": "compromised_card"}
+{"id": "bank-90", "text": "The ATM at Metro bank on High St. Kensington didn't return my card. What should I do now that the bank is closed?", "label": "card_swallowed"}
+{"id": "bank-91", "text": "Do you guys accept mastercard or visa?", "label": "visa_or_mastercard"}
+{"id": "bank-92", "text": "My card is being declined online. Could you tell me what might be broken or wrong with the account?", "label": "declined_transfer"}
+{"id": "bank-93", "text": "I need to activate my card can you do that now?", "label": "activate_my_card"}
+{"id": "bank-94", "text": "Someone has my card number, freeze my account.", "label": "compromised_card"}
+{"id": "bank-95", "text": "When are cards delivered?", "label": "card_delivery_estimate"}
+{"id": "bank-96", "text": "I cannot seem to find my PIN. Where is it?", "label": "get_physical_card"}
+{"id": "bank-97", "text": "What does a pending transaction mean?", "label": "pending_card_payment"}
+{"id": "bank-98", "text": "I transferred money but the recipient says it has not arrived. Why would this be?", "label": "transfer_not_received_by_recipient"}
+{"id": "bank-99", "text": "I might need AUD instead of GBP, how to change?", "label": "exchange_via_app"}
+{"id": "bank-100", "text": "Where do I order a virtual card from?", "label": "getting_virtual_card"}
+{"id": "bank-101", "text": "What are your international exchange rates?", "label": "exchange_rate"}
+{"id": "bank-102", "text": "Some of my card payments look different than where I purchased products from. Why is that?", "label": "card_payment_not_recognised"}
+{"id": "bank-103", "text": "I got a message that I need to verify my identity; what do I do?", "label": "verify_my_identity"}
+{"id": "bank-104", "text": "Please tell me about SWIFT transfers at this bank.", "label": "top_up_by_bank_transfer_charge"}
+{"id": "bank-105", "text": "What should I do if my card is missing?", "label": "lost_or_stolen_card"}
+{"id": "bank-106", "text": "Why do you keep declining my payment? I tried several times already with this card and it's just not working", "label": "declined_card_payment"}
+{"id": "bank-107", "text": "Why isn't my PIN available yet?", "label": "get_physical_card"}
+{"id": "bank-108", "text": "I will need to exchange currencies frequently, will I be able to get a discount?", "label": "exchange_charge"}
+{"id": "bank-109", "text": "Can you tell me why my top up was reverted?", "label": "top_up_reverted"}
+{"id": "bank-110", "text": "I need to know the time frame that is typical for a transfer from a UK account. I just made a transfer and it doesn't appear. I want to make sure everything is okay.", "label": "balance_not_updated_after_bank_transfer"}
+{"id": "bank-111", "text": "What is the source of my available funds?", "label": "verify_source_of_funds"}
+{"id": "bank-112", "text": "I want a card. What is the procedure?", "label": "order_physical_card"}
+{"id": "bank-113", "text": "How do I convert currencies with the app?", "label": "exchange_via_app"}
+{"id": "bank-114", "text": "WTF??? I tried to withdraw some money at a Metro bank on High St. Kensington and without any notice it disappeared in the machine. The bank was already closed so I couldn't do anything. How do I get it back?", "label": "card_swallowed"}
+{"id": "bank-115", "text": "Why was I charged extra for transferring money?", "label": "transfer_fee_charged"}
+{"id": "bank-116", "text": "Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at \"pending\" for over an hour now. Is it supposed to do this or is there something wrong in the system?", "label": "pending_top_up"}
+{"id": "bank-117", "text": "I tried to get $100 but I just got $20", "label": "wrong_amount_of_cash_received"}
+{"id": "bank-118", "text": "I have been waiting longer than expected for my bank card, could you provide information on when it will arrive?", "label": "card_arrival"}
+{"id": "bank-119", "text": "My transfer didn't go through.", "label": "failed_transfer"}
+{"id": "bank-120", "text": "cash deposit to my account has shown a red flag.", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-121", "text": "Double check your funds may be declined", "label": "declined_transfer"}
+{"id": "bank-122", "text": "Why has my card payment been declined?", "label": "declined_card_payment"}
+{"id": "bank-123", "text": "How can I change my Tholepin ?", "label": "change_pin"}
+{"id": "bank-124", "text": "I was attempting to purchase a golf club off eBay yesterday, but my credit card was declined. I tried multiple times, and again this morning. Can you check into my card please?", "label": "declined_transfer"}
+{"id": "bank-125", "text": "Please, activate my card", "label": "activate_my_card"}
+{"id": "bank-126", "text": "My cash withdrawal charged me the wrong exchange rate", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-127", "text": "Is there an amount limit to my top-up?", "label": "top_up_limits"}
+{"id": "bank-128", "text": "Payments from my disposable virtual card don't work", "label": "virtual_card_not_working"}
+{"id": "bank-129", "text": "Do you accept exchanges to EUR?", "label": "fiat_currency_support"}
+{"id": "bank-130", "text": "Please check payments on my card. There is a duplicate and I only bought it once.", "label": "transaction_charged_twice"}
+{"id": "bank-131", "text": "what do i do if my verification failed", "label": "unable_to_verify_identity"}
+{"id": "bank-132", "text": "Is cash good to top up with?", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-133", "text": "HOw do I get my card back after the ATM has pulled it in?", "label": "card_swallowed"}
+{"id": "bank-134", "text": "I want a refund for my purchase", "label": "request_refund"}
+{"id": "bank-135", "text": "Why does my transfer say \"pending\"?", "label": "pending_transfer"}
+{"id": "bank-136", "text": "Can I exchange currencies?", "label": "fiat_currency_support"}
+{"id": "bank-137", "text": "I need help activating my new card.", "label": "activate_my_card"}
+{"id": "bank-138", "text": "The exchange rate you gave me for my cash withdrawal is wrong", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-139", "text": "How do I update my details?", "label": "edit_personal_details"}
+{"id": "bank-140", "text": "I transferred some money but I think it has gotten lost somewhere.", "label": "balance_not_updated_after_bank_transfer"}
+{"id": "bank-141", "text": "I need your help in deleting my account.", "label": "terminate_account"}
+{"id": "bank-142", "text": "How is the top-up card verified?", "label": "verify_top_up"}
+{"id": "bank-143", "text": "Please explain why the transfers shows up as pending?", "label": "pending_transfer"}
+{"id": "bank-144", "text": "What should I do to verify my identity?", "label": "verify_my_identity"}
+{"id": "bank-145", "text": "I can't use my card.", "label": "card_not_working"}
+{"id": "bank-146", "text": "Can I still use my account, even though the identity verification has not passed yet?", "label": "why_verify_identity"}
+{"id": "bank-147", "text": "I asked for a refund last week but nothing has happened yet, can you help me please?", "label": "Refund_not_showing_up"}
+{"id": "bank-148", "text": "How do I view the card I received in the app?", "label": "card_linking"}
+{"id": "bank-149", "text": "I was supposed to get a purchase refunded but I don't see the money in my account", "label": "Refund_not_showing_up"}
+{"id": "bank-150", "text": "Why was a transfer to an account not allowed?", "label": "beneficiary_not_allowed"}
+{"id": "bank-151", "text": "Can I directly transfer my salary onto here?", "label": "receiving_money"}
+{"id": "bank-152", "text": "There is an important thing from China that I need to transfer. Approximately how long will this take?", "label": "transfer_timing"}
+{"id": "bank-153", "text": "How are currencies exchanged?", "label": "exchange_via_app"}
+{"id": "bank-154", "text": "Does it cost money for currency exchange services?", "label": "exchange_charge"}
+{"id": "bank-155", "text": "Can I transfer money to a beneficiery?", "label": "beneficiary_not_allowed"}
+{"id": "bank-156", "text": "Hi there! I need to cancel an order I recently made and start processing a refund. Can you please help me with this and set up the refund as soon as possible? It's very urgent.", "label": "request_refund"}
+{"id": "bank-157", "text": "I don't know how to top up my Google pay.", "label": "apple_pay_or_google_pay"}
+{"id": "bank-158", "text": "I want to know how many different currencies my money can be in", "label": "fiat_currency_support"}
+{"id": "bank-159", "text": "Where is my deposit?", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-160", "text": "Why isn't the transfer on my account showing up?", "label": "balance_not_updated_after_bank_transfer"}
+{"id": "bank-161", "text": "Who accepts my card?", "label": "card_acceptance"}
+{"id": "bank-162", "text": "Can you remove my account please?", "label": "terminate_account"}
+{"id": "bank-163", "text": "How do I link a new card?", "label": "card_linking"}
+{"id": "bank-164", "text": "Is there an additional charge for topping up using a European card?", "label": "top_up_by_card_charge"}
+{"id": "bank-165", "text": "What would make a decline message show up during a transfer?", "label": "declined_transfer"}
+{"id": "bank-166", "text": "I may have a fraud charge on my debit statement.", "label": "direct_debit_payment_not_recognised"}
+{"id": "bank-167", "text": "I transferred some money and it didint arrive", "label": "transfer_not_received_by_recipient"}
+{"id": "bank-168", "text": "What kind of documents do I need for the identity check?", "label": "verify_my_identity"}
+{"id": "bank-169", "text": "At which ATMs can I use this card?", "label": "atm_support"}
+{"id": "bank-170", "text": "A transfer to an account was not allowed", "label": "beneficiary_not_allowed"}
+{"id": "bank-171", "text": "Can I cancel a transfer if is already processed?", "label": "cancel_transfer"}
+{"id": "bank-172", "text": "What if I need multiple disposable cards?", "label": "disposable_card_limits"}
+{"id": "bank-173", "text": "Balance hasn't been updated following a cheque or cash deposit", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-174", "text": "When will my top-up process?", "label": "pending_top_up"}
+{"id": "bank-175", "text": "The app failed to verify my identity.", "label": "unable_to_verify_identity"}
+{"id": "bank-176", "text": "I got a extra \u20ac1 fee in my statement", "label": "extra_charge_on_statement"}
+{"id": "bank-177", "text": "Need help with my card. It's not working.", "label": "card_not_working"}
+{"id": "bank-178", "text": "I took out cash abroad and the exchange rate isn't correct.", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-179", "text": "My transfer appeared not to work.", "label": "failed_transfer"}
+{"id": "bank-180", "text": "I've notice I was charged for withdrawing cash, can you explain why?", "label": "cash_withdrawal_charge"}
+{"id": "bank-181", "text": "Can I use my card at any ATMs?", "label": "atm_support"}
+{"id": "bank-182", "text": "Who accepts this card?", "label": "card_acceptance"}
+{"id": "bank-183", "text": "I want to top-up using cash", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-184", "text": "If my card is trapped in the ATM, what do I do?", "label": "card_swallowed"}
+{"id": "bank-185", "text": "Can I add to my account balance with a cheque?", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-186", "text": "My statement has a dollar I have been charged showing up on it.", "label": "extra_charge_on_statement"}
+{"id": "bank-187", "text": "My card doesn't accept any transaction at all. What's wrong??", "label": "card_not_working"}
+{"id": "bank-188", "text": "Why was there a fee for my transfer?", "label": "transfer_fee_charged"}
+{"id": "bank-189", "text": "My work sends me all over the world, can I get a discount for all the money I have to exchange?", "label": "exchange_charge"}
+{"id": "bank-190", "text": "how do i get a card if i am in the usa", "label": "country_support"}
+{"id": "bank-191", "text": "I do not remember the code, what should I do?", "label": "passcode_forgotten"}
+{"id": "bank-192", "text": "Can my card be used everywhere?", "label": "card_acceptance"}
+{"id": "bank-193", "text": "Can I open an account for a child?", "label": "age_limit"}
+{"id": "bank-194", "text": "I will need to get a new card soon, how do I order?", "label": "card_about_to_expire"}
+{"id": "bank-195", "text": "Exchange rate for my cash withdrawal is wrong", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-196", "text": "Help me transfer money to my credit card.", "label": "topping_up_by_card"}
+{"id": "bank-197", "text": "How do I avoid getting charged a fee on my card?", "label": "card_payment_fee_charged"}
+{"id": "bank-198", "text": "How do your exchange rates work?", "label": "exchange_rate"}
+{"id": "bank-199", "text": "My virtual card isn't working. What do I do?", "label": "virtual_card_not_working"}
+{"id": "bank-200", "text": "Is there an age limit?", "label": "age_limit"}
+{"id": "bank-201", "text": "Why is my balance the same?  I processed a transfer.", "label": "balance_not_updated_after_bank_transfer"}
+{"id": "bank-202", "text": "Do you do Visa or Mastercard?", "label": "visa_or_mastercard"}
+{"id": "bank-203", "text": "My disposable card seems not to be working am I doing something wrong?", "label": "virtual_card_not_working"}
+{"id": "bank-204", "text": "My card payment did not work.", "label": "declined_card_payment"}
+{"id": "bank-205", "text": "What is the cause that the transfer shows as pending?", "label": "pending_transfer"}
+{"id": "bank-206", "text": "Please tell me how to get a physical card.", "label": "order_physical_card"}
+{"id": "bank-207", "text": "It's been two weeks, why has the transaction for $1.00 not been reversed?", "label": "extra_charge_on_statement"}
+{"id": "bank-208", "text": "Can you please help me with this exchange?  I am trying to get crypto and the app won't let me.", "label": "beneficiary_not_allowed"}
+{"id": "bank-209", "text": "Where are cards delivered to?", "label": "order_physical_card"}
+{"id": "bank-210", "text": "What happened to my top-up?", "label": "top_up_reverted"}
+{"id": "bank-211", "text": "I was declined when I tried to get cash.", "label": "declined_cash_withdrawal"}
+{"id": "bank-212", "text": "Why isn't my ID being verified?", "label": "unable_to_verify_identity"}
+{"id": "bank-213", "text": "Where will I find my card?", "label": "order_physical_card"}
+{"id": "bank-214", "text": "Will there be any extra fees for European bank card for top up?", "label": "top_up_by_card_charge"}
+{"id": "bank-215", "text": "My ATM transaction was unsuccessful.", "label": "declined_cash_withdrawal"}
+{"id": "bank-216", "text": "Do you have any limit on the auto top-up?", "label": "automatic_top_up"}
+{"id": "bank-217", "text": "I have a strange payment in my statement", "label": "card_payment_not_recognised"}
+{"id": "bank-218", "text": "How do my friends top up my account", "label": "topping_up_by_card"}
+{"id": "bank-219", "text": "How many disposable cards can I make in a single day?", "label": "disposable_card_limits"}
+{"id": "bank-220", "text": "Would like to use my card and need to activate it first.  Can you help me do this?", "label": "activate_my_card"}
+{"id": "bank-221", "text": "Why is the cash deposit not showing up in my account?", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-222", "text": "I noticed after looking over my transactions that I have been charged twice from an earlier restaurant visit this week. Is it possible that one of these can be removed so I get the money back for the one that is not accurate?", "label": "transaction_charged_twice"}
+{"id": "bank-223", "text": "What different ways are there for someone to send me money?", "label": "receiving_money"}
+{"id": "bank-224", "text": "I would like to know why I was charged twice for my purchase.", "label": "transaction_charged_twice"}
+{"id": "bank-225", "text": "This is URGENT, I typed the wrong payment information for a payment I needed to make and have clicked send, I need to reverse the transaction immediately.", "label": "cancel_transfer"}
+{"id": "bank-226", "text": "There is an error, the app says I made an ATM withdrawal and I didn't.", "label": "cash_withdrawal_not_recognised"}
+{"id": "bank-227", "text": "Will I be charged for topping up by card?", "label": "top_up_by_card_charge"}
+{"id": "bank-228", "text": "my atm cash out is still pending", "label": "pending_cash_withdrawal"}
+{"id": "bank-229", "text": "What's the top up limit?", "label": "top_up_limits"}
+{"id": "bank-230", "text": "Something went wrong, I was charged an extra pound?", "label": "extra_charge_on_statement"}
+{"id": "bank-231", "text": "How can I perform a dual money transferring from one account to another?", "label": "transfer_into_account"}
+{"id": "bank-232", "text": "I noticed an extra $1 charge on my statement, can you tell me why that is?", "label": "extra_charge_on_statement"}
+{"id": "bank-233", "text": "How long does an item I bought show as pending?", "label": "pending_card_payment"}
+{"id": "bank-234", "text": "Help.  I have a stolen card!", "label": "lost_or_stolen_card"}
+{"id": "bank-235", "text": "Can I used my card even if my phone has been stolen?", "label": "lost_or_stolen_phone"}
+{"id": "bank-236", "text": "What are the limits to using disposable virtual cards?", "label": "disposable_card_limits"}
+{"id": "bank-237", "text": "Can I unblock my pin?", "label": "pin_blocked"}
+{"id": "bank-238", "text": "My cash deposit from a week ago hasn't shown up. I need the money - how quickly can you sort this out?", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"id": "bank-239", "text": "How can I top-up my limit?", "label": "top_up_limits"}
+{"id": "bank-240", "text": "Can my daughter open an account?", "label": "age_limit"}
+{"id": "bank-241", "text": "How can I cancel a transfer?", "label": "cancel_transfer"}
+{"id": "bank-242", "text": "Where is the card PIN?", "label": "get_physical_card"}
+{"id": "bank-243", "text": "Do I need to establish I am paid in GBP before a transfer?", "label": "receiving_money"}
+{"id": "bank-244", "text": "What are the fees for top ups?", "label": "top_up_by_card_charge"}
+{"id": "bank-245", "text": "What options do I have for holding currencies?", "label": "fiat_currency_support"}
+{"id": "bank-246", "text": "What is the extra  \u20ac1 fee in my statement", "label": "extra_charge_on_statement"}
+{"id": "bank-247", "text": "Why has my payment not gone through?", "label": "pending_card_payment"}
+{"id": "bank-248", "text": "Whats the delivery time to the United States?", "label": "card_delivery_estimate"}
+{"id": "bank-249", "text": "Is there anyway, I can get a disposable virtual card?", "label": "get_disposable_virtual_card"}
+{"id": "bank-250", "text": "Do I have to pay for topping up by transfer?", "label": "top_up_by_bank_transfer_charge"}
+{"id": "bank-251", "text": "Are there any fees for adding money with an international card?", "label": "top_up_by_card_charge"}
+{"id": "bank-252", "text": "Why do you need code verification for my top up?", "label": "verify_top_up"}
+{"id": "bank-253", "text": "will i be able to open an account for my daughter", "label": "age_limit"}
+{"id": "bank-254", "text": "Is there a way to obtain a virtual card?", "label": "getting_virtual_card"}
+{"id": "bank-255", "text": "Will you handle EUR?", "label": "fiat_currency_support"}
+{"id": "bank-256", "text": "do I need to verify my identity every time I log into my account?", "label": "why_verify_identity"}
+{"id": "bank-257", "text": "Do you have a top-up limit?", "label": "top_up_limits"}
+{"id": "bank-258", "text": "for some reason I am having a problem with verifying my identity.", "label": "unable_to_verify_identity"}
+{"id": "bank-259", "text": "The refund isn't showing up on my account.", "label": "Refund_not_showing_up"}
+{"id": "bank-260", "text": "Help me please!  My card was stolen!", "label": "lost_or_stolen_card"}
+{"id": "bank-261", "text": "What is the activation process on my new card?", "label": "activate_my_card"}
+{"id": "bank-262", "text": "I need to order a  new card, mine is about to expire and I need to know how much it will cost and how long until I receive it.", "label": "card_about_to_expire"}
+{"id": "bank-263", "text": "How can I change the PIN?  Do I have to go to a real bank?", "label": "change_pin"}
+{"id": "bank-264", "text": "How do i get my salary in the account?", "label": "receiving_money"}
+{"id": "bank-265", "text": "Why did you charge me for a cash withdrawal?", "label": "cash_withdrawal_charge"}
+{"id": "bank-266", "text": "I have an unauthorized transaction on my statement", "label": "card_payment_not_recognised"}
+{"id": "bank-267", "text": "I bought an item and noticed the exchange rate was not correct.", "label": "card_payment_wrong_exchange_rate"}
+{"id": "bank-268", "text": "May I choose when it's delivered?", "label": "card_delivery_estimate"}
+{"id": "bank-269", "text": "the app reverted my payment", "label": "reverted_card_payment?"}
+{"id": "bank-270", "text": "My transfer didn't work", "label": "failed_transfer"}
+{"id": "bank-271", "text": "When will I get my card?", "label": "card_arrival"}
+{"id": "bank-272", "text": "How many disposable cards can I have?", "label": "disposable_card_limits"}
+{"id": "bank-273", "text": "If I need to do a quick transfer from China, how long should I expect the transfer to take?", "label": "transfer_timing"}
+{"id": "bank-274", "text": "Should I just wait until the post office sends a change of address form?", "label": "edit_personal_details"}
+{"id": "bank-275", "text": "If I want to top up, can I use Apple Pay?", "label": "apple_pay_or_google_pay"}
+{"id": "bank-276", "text": "what is source of my funds, need to verify", "label": "verify_source_of_funds"}
+{"id": "bank-277", "text": "I am waiting for a payment to go through.", "label": "pending_card_payment"}
+{"id": "bank-278", "text": "My card was confiscated by an ATM. How do I get my card back?", "label": "card_swallowed"}
+{"id": "bank-279", "text": "The card got declined twice when I tried to use it to buy something online yesterday.", "label": "declined_transfer"}
+{"id": "bank-280", "text": "It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.", "label": "transaction_charged_twice"}
+{"id": "bank-281", "text": "My bank transfer is still not showing up in my account.", "label": "balance_not_updated_after_bank_transfer"}
+{"id": "bank-282", "text": "How can I top-up my card?", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-283", "text": "The amount of cash I received was incorrect", "label": "wrong_amount_of_cash_received"}
+{"id": "bank-284", "text": "locations to withdraw money", "label": "atm_support"}
+{"id": "bank-285", "text": "I need your help to check my account, please! My card keeps being declined at the ATM, and I've already tried two different ones!", "label": "declined_cash_withdrawal"}
+{"id": "bank-286", "text": "How do I go through the process of currency exchange?", "label": "exchange_via_app"}
+{"id": "bank-287", "text": "I need to change my name since I got married", "label": "edit_personal_details"}
+{"id": "bank-288", "text": "What is the top-ups limit?", "label": "top_up_limits"}
+{"id": "bank-289", "text": "Will you be able to send the new card to China?", "label": "card_about_to_expire"}
+{"id": "bank-290", "text": "I would like to exchange some currency.", "label": "exchange_via_app"}
+{"id": "bank-291", "text": "Can I use this to receive my salary?", "label": "receiving_money"}
+{"id": "bank-292", "text": "My top-up was cancelled; will I receive a refund?", "label": "top_up_reverted"}
+{"id": "bank-293", "text": "Can I have a refund?", "label": "request_refund"}
+{"id": "bank-294", "text": "How do I go about setting up an account for my daughter?", "label": "age_limit"}
+{"id": "bank-295", "text": "Since my id hasn't been verified, when can I use my account?", "label": "why_verify_identity"}
+{"id": "bank-296", "text": "im so mad right now. theres several charges that I think my x boyfriend made on my card. the companys on the website wouldn't refund me my money, they told me to contact my bank. DO something please.", "label": "direct_debit_payment_not_recognised"}
+{"id": "bank-297", "text": "\n\nWhat businesses accept this card?", "label": "card_acceptance"}
+{"id": "bank-298", "text": "What steps do I need to take to change my card PIN?", "label": "change_pin"}
+{"id": "bank-299", "text": "Will I always be charged a fee for using my card?", "label": "card_payment_fee_charged"}
+{"id": "bank-300", "text": "Can you help me sign up for a virtual card?", "label": "getting_virtual_card"}
+{"id": "bank-301", "text": "Is there a specific type you need for identity verification?", "label": "verify_my_identity"}
+{"id": "bank-302", "text": "Is there a location near me that i can change my PIN?", "label": "change_pin"}
+{"id": "bank-303", "text": "What do I need to do to transfer my paycheck to my account?", "label": "receiving_money"}
+{"id": "bank-304", "text": "I have waited 15 days, but my payment still hasn't cleared.", "label": "pending_card_payment"}
+{"id": "bank-305", "text": "There is a cash withdrawal transaction that I am unsure of.", "label": "cash_withdrawal_not_recognised"}
+{"id": "bank-306", "text": "My card is being used online to make a bunch of purchases! Someone else is using it fraudulently. Can you help me freeze it?", "label": "compromised_card"}
+{"id": "bank-307", "text": "Please help me make a transfer. I keep receiving an error and I'm trying to make the initial mortgage payment for a flat I'm buying. What is the deal here?", "label": "failed_transfer"}
+{"id": "bank-308", "text": "How can the recipient see my money transaction?", "label": "transfer_not_received_by_recipient"}
+{"id": "bank-309", "text": "Which cash machines will allow me to change my PIN?", "label": "change_pin"}
+{"id": "bank-310", "text": "My card didn't work in one of the shops.", "label": "declined_card_payment"}
+{"id": "bank-311", "text": "What is this $1 charge on my statement?", "label": "extra_charge_on_statement"}
+{"id": "bank-312", "text": "Where should my card work?", "label": "card_acceptance"}
+{"id": "bank-313", "text": "I am experiencing difficulty providing my identity.", "label": "unable_to_verify_identity"}
+{"id": "bank-314", "text": "How old do I need to be to open an account?", "label": "age_limit"}
+{"id": "bank-315", "text": "Is there a limit when using auto top-up?", "label": "automatic_top_up"}
+{"id": "bank-316", "text": "They declined my card payment.", "label": "declined_card_payment"}
+{"id": "bank-317", "text": "How do I order a new card before It expires?", "label": "card_about_to_expire"}
+{"id": "bank-318", "text": "app doesnt think its me", "label": "unable_to_verify_identity"}
+{"id": "bank-319", "text": "Is it a good time to exchange?", "label": "exchange_rate"}
+{"id": "bank-320", "text": "Someone stole my phone.", "label": "lost_or_stolen_phone"}
+{"id": "bank-321", "text": "There is an ATM withdrawl in the app I don't recognize.", "label": "cash_withdrawal_not_recognised"}
+{"id": "bank-322", "text": "What do I do when my card is about to expire?", "label": "card_about_to_expire"}
+{"id": "bank-323", "text": "I recently got a new place while I'm staying abroad and have been using this account to manage payments, but suddenly I am seeing fees increase. Where are these additional fees coming from?", "label": "transfer_fee_charged"}
+{"id": "bank-324", "text": "Since my card is about to expire, I need a new one.", "label": "card_about_to_expire"}
+{"id": "bank-325", "text": "How do I make an exchange from one currency to another?", "label": "exchange_via_app"}
+{"id": "bank-326", "text": "My transfer did not seem to work.", "label": "failed_transfer"}
+{"id": "bank-327", "text": "I was charged a fee for my transfer.", "label": "transfer_fee_charged"}
+{"id": "bank-328", "text": "I think the atm ate my card.", "label": "card_swallowed"}
+{"id": "bank-329", "text": "I attempted to top up but the app denied it.", "label": "top_up_failed"}
+{"id": "bank-330", "text": "I was charge a fee for my transfer, why?", "label": "transfer_fee_charged"}
+{"id": "bank-331", "text": "I had to pay in order to do a transfer", "label": "transfer_fee_charged"}
+{"id": "bank-332", "text": "My ID won't be verified!", "label": "unable_to_verify_identity"}
+{"id": "bank-333", "text": "I think someone copied the numbers on my card and is using them.", "label": "compromised_card"}
+{"id": "bank-334", "text": "What stores will take my credit card as payment?", "label": "card_acceptance"}
+{"id": "bank-335", "text": "Someone else may be using my card.  There are transactions I don't recognize.", "label": "compromised_card"}
+{"id": "bank-336", "text": "Do you support any currency?", "label": "fiat_currency_support"}
+{"id": "bank-337", "text": "Why do I have to give you all of my identification details?", "label": "why_verify_identity"}
+{"id": "bank-338", "text": "Is it necessary to verify my top up?", "label": "verify_top_up"}
+{"id": "bank-339", "text": "Can I freeze my card right now?", "label": "compromised_card"}
+{"id": "bank-340", "text": "I'd like more information about choosing a Visa or Mastercard.", "label": "visa_or_mastercard"}
+{"id": "bank-341", "text": "What's the process for ID verification?", "label": "verify_my_identity"}
+{"id": "bank-342", "text": "What is the highest limit for Auto Top?", "label": "automatic_top_up"}
+{"id": "bank-343", "text": "My top up is pending.", "label": "pending_top_up"}
+{"id": "bank-344", "text": "I would like to order a disposable virtual card. How can I do this?", "label": "get_disposable_virtual_card"}
+{"id": "bank-345", "text": "Will a transfer incur a fee?", "label": "top_up_by_bank_transfer_charge"}
+{"id": "bank-346", "text": "How much am I charged for a SEPA transfer?", "label": "top_up_by_bank_transfer_charge"}
+{"id": "bank-347", "text": "It looks like I was charged a withdrawal fee for going to my ATM. Why is that because I haven't been charged previously for doing so?", "label": "cash_withdrawal_charge"}
+{"id": "bank-348", "text": "What is the transfer fee charge?", "label": "transfer_fee_charged"}
+{"id": "bank-349", "text": "The money would not transfer to a beneficiary.", "label": "beneficiary_not_allowed"}
+{"id": "bank-350", "text": "Why did I get blocked?", "label": "pin_blocked"}
+{"id": "bank-351", "text": "Please help me as i am continuously facing the issue in transferring money to my friends, as all my transactions are getting failed.", "label": "failed_transfer"}
+{"id": "bank-352", "text": "I couldn't make a transfer to a beneficiary!", "label": "beneficiary_not_allowed"}
+{"id": "bank-353", "text": "Is there a local ATM that will provide British pounds, I have no money for my homeward journey and do not feel comfortable waiting until  I arrive in Britain. Will a withdrawal involve extra charges?", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-354", "text": "What are your currency exchange fees?", "label": "exchange_charge"}
+{"id": "bank-355", "text": "The app won't let me top up my account", "label": "top_up_failed"}
+{"id": "bank-356", "text": "Is there a problem with receiving my salary in GBP?", "label": "receiving_money"}
+{"id": "bank-357", "text": "My transfer hasn't gone through yet.", "label": "pending_transfer"}
+{"id": "bank-358", "text": "How did you come up with your exchange rates?", "label": "exchange_rate"}
+{"id": "bank-359", "text": "How much is the charge to top up my card?", "label": "top_up_by_card_charge"}
+{"id": "bank-360", "text": "Which country's currency do you support?", "label": "fiat_currency_support"}
+{"id": "bank-361", "text": "I topped up my account and even though it was confirmed at first, the money isn't there anymore! why did this happen, and where did my money go?", "label": "top_up_reverted"}
+{"id": "bank-362", "text": "How many times can I use the disposable virtual card I have?", "label": "disposable_card_limits"}
+{"id": "bank-363", "text": "How young can I be to open my own account?", "label": "age_limit"}
+{"id": "bank-364", "text": "I'm not certain, but someone may be using my card.", "label": "compromised_card"}
+{"id": "bank-365", "text": "There is a direct debit that's not mine.", "label": "direct_debit_payment_not_recognised"}
+{"id": "bank-366", "text": "Something is wrong with my passcode", "label": "passcode_forgotten"}
+{"id": "bank-367", "text": "Tell me how to cancel a transfer.", "label": "cancel_transfer"}
+{"id": "bank-368", "text": "Help me reset the passcode.", "label": "passcode_forgotten"}
+{"id": "bank-369", "text": "There is a payment in the App that is not mine.", "label": "card_payment_not_recognised"}
+{"id": "bank-370", "text": "I can not get the app to know it is me.", "label": "unable_to_verify_identity"}
+{"id": "bank-371", "text": "My friends want to top up my account", "label": "topping_up_by_card"}
+{"id": "bank-372", "text": "How long does it take to process transfers from Europe?", "label": "transfer_timing"}
+{"id": "bank-373", "text": "My password isn't being accepted and I need to reset it.", "label": "passcode_forgotten"}
+{"id": "bank-374", "text": "I see some fees for cash withdraw.", "label": "cash_withdrawal_charge"}
+{"id": "bank-375", "text": "How would I go about getting a second card?", "label": "getting_spare_card"}
+{"id": "bank-376", "text": "I tried to pay contactless at the bus today and it didn't work. Any ideas why?", "label": "contactless_not_working"}
+{"id": "bank-377", "text": "How long do card transactions take to clear?", "label": "pending_card_payment"}
+{"id": "bank-378", "text": "Can you explain disposable cards?", "label": "get_disposable_virtual_card"}
+{"id": "bank-379", "text": "Can you top-up a card with a cheque?", "label": "top_up_by_cash_or_cheque"}
+{"id": "bank-380", "text": "There is an unauthorized cash withdrawal from my account for 500\u00a3.  I definitely didn't make this withdrawal.  I need your help.", "label": "cash_withdrawal_not_recognised"}
+{"id": "bank-381", "text": "Where did this 1 euro fee come from?", "label": "extra_charge_on_statement"}
+{"id": "bank-382", "text": "How many cards can I have for one account?", "label": "getting_spare_card"}
+{"id": "bank-383", "text": "How can I edit my personal details?", "label": "edit_personal_details"}
+{"id": "bank-384", "text": "Where can I get my card at?", "label": "order_physical_card"}
+{"id": "bank-385", "text": "I can't get money out of the ATM", "label": "declined_cash_withdrawal"}
+{"id": "bank-386", "text": "There is a payment that is not mine.", "label": "card_payment_not_recognised"}
+{"id": "bank-387", "text": "can i top up with apple pay", "label": "apple_pay_or_google_pay"}
+{"id": "bank-388", "text": "How do I make more than one disposable card in a day?", "label": "disposable_card_limits"}
+{"id": "bank-389", "text": "I tryed to make a top-up with cryptocurrency but the payment was referted.", "label": "top_up_reverted"}
+{"id": "bank-390", "text": "Why did my my transfer get declined?", "label": "declined_transfer"}
+{"id": "bank-391", "text": "I tried to top up using my card, but now the money just disappeared!", "label": "topping_up_by_card"}
+{"id": "bank-392", "text": "Why has payment been returned?", "label": "reverted_card_payment?"}
+{"id": "bank-393", "text": "How can i get multiple disposble cards.", "label": "disposable_card_limits"}
+{"id": "bank-394", "text": "I would like to revert a transaction I did this morning", "label": "cancel_transfer"}
+{"id": "bank-395", "text": "How long does a transfer stay pending?", "label": "pending_transfer"}
+{"id": "bank-396", "text": "Hello. I'm on holiday and didn't bring any cash with me. I need to withdrawal my home currency from one of your machines. Do you have any that will do this and is there a charge?", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"id": "bank-397", "text": "How do I go about activating my new card?", "label": "activate_my_card"}
+{"id": "bank-398", "text": "What do you need for my identity check?", "label": "verify_my_identity"}
+{"id": "bank-399", "text": "I tried verifying my ID, but it won't let me.", "label": "unable_to_verify_identity"}

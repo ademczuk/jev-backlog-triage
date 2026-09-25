@@ -1,0 +1,4 @@
+{"id":"inj-test-21","label":false,"answer":{"type":"boolean","probability":0.04},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":325,"outputTokens":20,"totalTokens":345},"ms":457}
+{"id":"inj-test-46","label":false,"error":"Delay was aborted","ms":30016}
+{"id":"inj-test-71","label":false,"answer":{"type":"boolean","probability":0.02},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":334,"outputTokens":20,"totalTokens":354},"ms":425}
+{"id":"inj-test-92","label":true,"answer":{"type":"boolean","probability":0.72},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":335,"outputTokens":20,"totalTokens":355},"ms":295}

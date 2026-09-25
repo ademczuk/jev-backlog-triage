@@ -1,0 +1,3 @@
+{"id":"sst2-0","label":false,"answer":{"type":"boolean","probability":0.2},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":343,"outputTokens":20,"totalTokens":363},"ms":846}
+{"id":"sst2-1","label":true,"answer":{"type":"boolean","probability":0.97},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":329,"outputTokens":20,"totalTokens":349},"ms":934}
+{"id":"sst2-2","label":true,"answer":{"type":"boolean","probability":0.67},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":336,"outputTokens":20,"totalTokens":356},"ms":821}

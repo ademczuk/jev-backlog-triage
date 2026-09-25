@@ -1,0 +1,7 @@
+{"id":"telco-11","label":true,"answer":{"type":"boolean","probability":0.32},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":452,"outputTokens":20,"totalTokens":472},"ms":512}
+{"id":"telco-17","label":false,"answer":{"type":"boolean","probability":0.6},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":449,"outputTokens":20,"totalTokens":469},"ms":409}
+{"id":"telco-40","label":true,"answer":{"type":"boolean","probability":0.64},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":447,"outputTokens":20,"totalTokens":467},"ms":353}
+{"id":"telco-65","label":false,"error":"Delay was aborted","ms":30001}
+{"id":"telco-88","label":true,"answer":{"type":"boolean","probability":0.59},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":451,"outputTokens":20,"totalTokens":471},"ms":650}
+{"id":"telco-112","label":false,"answer":{"type":"boolean","probability":0.41},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":450,"outputTokens":20,"totalTokens":470},"ms":332}
+{"id":"telco-136","label":false,"answer":{"type":"boolean","probability":0.55},"confidence":null,"rounding":{"probabilityDecimals":2,"scoreDecimals":2},"usage":{"inputTokens":449,"outputTokens":20,"totalTokens":469},"ms":351}

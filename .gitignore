@@ -10,3 +10,12 @@ run.out
 deploy.log
 api.out
 hdr.out
+
+# research: local environments and caches
+research/.venv-*/
+research/__pycache__/
+# research data not committed: regenerate with research/prep_*.py (see research/data/SOURCES.md)
+research/data/routing*.jsonl
+research/data/sst2.jsonl
+research/data/irony.jsonl
+research/data/*.train.*
