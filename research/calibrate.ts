@@ -11,7 +11,10 @@ if (!set || !pass) throw new Error('usage: calibrate.ts <sst2|irony|banking77> <
 const CONCURRENCY = Number(process.env.JEV_CONCURRENCY ?? 8);
 
 const dir = new URL('.', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
-const items = readFileSync(`${dir}data/${set}.jsonl`, 'utf8').trim().split('\n').map((l) => JSON.parse(l))
+// Private sets live outside this public repo: point JEV_DATA_DIR / JEV_RESULTS_DIR at them.
+const dataDir = process.env.JEV_DATA_DIR ? `${process.env.JEV_DATA_DIR.replace(/\/$/, '')}/` : `${dir}data/`;
+const resultsDir = process.env.JEV_RESULTS_DIR ? `${process.env.JEV_RESULTS_DIR.replace(/\/$/, '')}/` : `${dir}results/`;
+const items = readFileSync(`${dataDir}${set}.jsonl`, 'utf8').trim().split('\n').map((l) => JSON.parse(l))
   .slice(Number(process.env.JEV_OFFSET ?? 0), Number(process.env.JEV_OFFSET ?? 0) + Number(process.env.JEV_LIMIT ?? 1e9))
   .filter((it: any) => !process.env.JEV_ONLY_IDS || process.env.JEV_ONLY_IDS.split(',').includes(it.id));
 
@@ -70,8 +73,18 @@ function questionsFor(s: string) {
       },
     };
   }
+  if (s === 'skills_synth' || s === 'skills_real') {
+    const skills: Record<string, string> = JSON.parse(readFileSync(`${dataDir}skills.options.json`, 'utf8'));
+    return {
+      q: {
+        type: 'choice' as const,
+        instructions: 'Which skill should a coding assistant load to handle this request from its user?',
+        criteria: skills,
+      },
+    };
+  }
   if (s === 'tools') {
-    const tools: Record<string, string> = JSON.parse(readFileSync(`${dir}data/tools.options.json`, 'utf8'));
+    const tools: Record<string, string> = JSON.parse(readFileSync(`${dataDir}tools.options.json`, 'utf8'));
     return {
       q: {
         type: 'choice' as const,
@@ -81,7 +94,7 @@ function questionsFor(s: string) {
     };
   }
   if (s === 'banking77') {
-    const labels: string[] = JSON.parse(readFileSync(`${dir}data/banking77.labels.json`, 'utf8'));
+    const labels: string[] = JSON.parse(readFileSync(`${dataDir}banking77.labels.json`, 'utf8'));
     return {
       q: {
         type: 'choice' as const,
@@ -120,8 +133,8 @@ async function one(item: any) {
   }
 }
 
-mkdirSync(`${dir}results`, { recursive: true });
-const file = `${dir}results/${set}.${pass}.jsonl`;
+mkdirSync(resultsDir, { recursive: true });
+const file = `${resultsDir}${set}.${pass}.jsonl`;
 writeFileSync(file, '');
 const out: any[] = [];
 let next = 0;
